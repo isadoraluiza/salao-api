@@ -23,11 +23,12 @@ Ele oferece funcionalidades completas para administrar o salão, permitindo:
 - Configure o banco de dados MySQL (via XAMPP ou servidor local).
 - No arquivo application.properties, ajuste as credenciais do banco:
   
-spring.datasource.username=SEU_USUARIO
-spring.datasource.password=SUA_SENHA
+  - spring.datasource.username=SEU_USUARIO
+  - spring.datasource.password=SUA_SENHA
 
 - Abra o projeto no IntelliJ IDEA e aguarde o Maven baixar as dependências.
 - Execute a classe principal da aplicação.
-  O sistema estará disponível em: http://localhost:8080
-  Utilize o Postaman para testar os endpoints.
+  
+- O sistema estará disponível em: http://localhost:8080
+- Utilize o Postaman para testar os endpoints.
 
